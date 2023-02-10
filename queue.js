@@ -18,7 +18,7 @@ class Queue{
             this.count++;
         }
         else{
-            var temp=this.rootNode
+            let temp=this.rootNode
             while(temp.nextNode != null)
             {
                 temp=temp.nextNode;
@@ -31,7 +31,7 @@ class Queue{
 
     printelements()
     {
-        var temp = this.rootNode;
+        let temp = this.rootNode;
             if(temp == null)
             {
                 console.log("Is empty!")
@@ -55,7 +55,7 @@ class Queue{
 }
 
 
-var list = new queue()
+let list = new Queue()
 list.addStack(1);
 list.addStack(2);
 list.addStack(3);
