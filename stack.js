@@ -14,7 +14,7 @@ class Stack{
     {
         if(this.rootNode==null)
         {
-            this.rootNode= new node(val)
+            this.rootNode= new Node(val)
             this.count++;
         }
         else{
