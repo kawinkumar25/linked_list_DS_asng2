@@ -24,7 +24,7 @@ class Stack{
                 temp=temp.nextNode;
                 this.count++;
             }
-            temp.nextNode = new node(val);
+            temp.nextNode = new Node(val);
         }
 
     }
