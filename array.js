@@ -149,8 +149,8 @@ console.log("22.reduce right ",res4)
 
 
 const arr23 = [1,2,3,4,5];
-let output = arr23.reverse();
-console.log("23.reverse ",output);
+arr23.reverse();
+console.log("23.reverse ",arr23);
 
 
 const arr24 = ["kawin", "kumar", "ragul", "gopi"];
