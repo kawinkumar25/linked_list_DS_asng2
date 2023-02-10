@@ -1,4 +1,4 @@
-class node {
+class Node {
     data;
     nextNode;
     constructor(val)
@@ -7,7 +7,7 @@ class node {
     }
 } 
 
-class LinkedList{
+class Stack{
     rootNode = null;
     count = 0;
     addStack(val)
@@ -18,7 +18,7 @@ class LinkedList{
             this.count++;
         }
         else{
-            var temp=this.rootNode
+            let temp=this.rootNode
             while(temp.nextNode != null)
             {
                 temp=temp.nextNode;
@@ -31,7 +31,7 @@ class LinkedList{
 
     printelements()
     {
-        var temp = this.rootNode;
+        let temp = this.rootNode;
             if(temp == null)
             {
                 console.log("Is empty!")
@@ -48,7 +48,7 @@ class LinkedList{
 
     remove()
     {
-        var i=1
+        let i=1
         let n1= this.rootNode
         while(i<this.count-1)
         {
@@ -61,7 +61,7 @@ class LinkedList{
 }
 
 
-var list = new LinkedList()
+let list = new Stack()
 list.addStack(1);
 list.addStack(2);
 list.addStack(3);
