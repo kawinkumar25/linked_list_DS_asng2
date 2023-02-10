@@ -71,7 +71,7 @@ const arr10 = Array.from("kawin")
 console.log("10.Arrayfrom ",arr10)
 
 
-var arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
+let arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
 console.log("11.includes",arr11.includes("kumar",1))
 
 
@@ -149,7 +149,7 @@ console.log("22.reduce right ",res4)
 
 
 const arr23 = [1,2,3,4,5];
-var output = arr23.reverse();
+let output = arr23.reverse();
 console.log("23.reverse ",output);
 
 
