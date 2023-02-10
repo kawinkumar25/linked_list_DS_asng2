@@ -26,7 +26,7 @@ class LinkedList{
             let n1;
             let n2;
             n1=new Node(value)
-            let temp = this.rootNode
+            
             let i=1;
             if(index==0)
             {
