@@ -1,4 +1,4 @@
-class node {
+class Node {
     data;
     nextNode;
     constructor(val)
@@ -7,7 +7,7 @@ class node {
     }
 } 
 
-class queue{
+class Queue{
     rootNode = null;
     count = 0;
     addStack(val)
