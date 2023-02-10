@@ -20,7 +20,7 @@ for(let a of arr7)
 }
 
 
-const even = [12, 22, 32, 42];
+const even = [12, 22, 31, 41];
 
 console.log("4.every",even.every(checkEven))
 
@@ -34,12 +34,8 @@ arr8.fill("sai",0,3)
 console.log("5.fill",arr8)
 
 
-const even1 = [12, 21, 32, 42]
-const res = even.filter(checkEven)
-function checkEven(even1)
-{
-    return even1%2==0
-}
+const even1 = [12, 21, 32,42]
+const res = even1.filter(checkEven)
 console.log("6.filter ",res)
 
 
@@ -75,7 +71,7 @@ const arr10 = Array.from("kawin")
 console.log("10.Arrayfrom ",arr10)
 
 
-arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
+var arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
 console.log("11.includes",arr11.includes("kumar",1))
 
 
@@ -115,12 +111,14 @@ console.log("17.length",length)
 
 
 const arr18 = [1,2,3,4,5];
-const newArr = arr18.map(myFunction)
+const newArr = arr18.map(myfunction)
 
-function myFunction(num) {
+function myfunction(num) {
   return num * 10;
 }
 console.log("18.map ",newArr)
+
+
 
 
 const arr19 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
@@ -142,7 +140,7 @@ console.log("21.reduce ",res3)
 
 
 const arr22 = [1,2,3,4,5];
-res4 = arr22.reduceRight(myFunc);
+var res4 = arr22.reduceRight(myFunc);
 
 function myFunc(total, num) {
   return total - num;
@@ -151,7 +149,8 @@ console.log("22.reduce right ",res4)
 
 
 const arr23 = [1,2,3,4,5];
-console.log("23.reverse ",arr23.reverse());
+var output = arr23.reverse();
+console.log("23.reverse ",output);
 
 
 const arr24 = ["kawin", "kumar", "ragul", "gopi"];
@@ -168,9 +167,6 @@ const even4 = [12, 22, 32, 42];
 
 console.log("26.some",even4.some(checkEven))
 
-function checkEven(even) {
-  return even%2==0;
-}
 
 
 const even5 = ["kawin", "kumar", "ragul", "gopi"];
